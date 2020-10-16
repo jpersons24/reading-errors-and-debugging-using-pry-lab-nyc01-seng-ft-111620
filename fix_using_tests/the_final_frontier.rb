@@ -12,8 +12,6 @@ def state_log(star_date)
   puts "Captain's Log, star date #{star_date}."
 end
 
-state_log(star_date)
-
 crew = ["Jake", "Brynn", "Chase", "Brittany", "Eric"]
 
 def greet_crew(crew)
