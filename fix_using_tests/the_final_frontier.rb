@@ -5,11 +5,8 @@ def generate_star_date
   (rand(100000) + 400000) / 10.0
 end
 
-# generate_star_date #call generate_star_date method
-# star_date = generate_star_date #set generate_star_date method equal to star_date variable
-
-def state_log(star_date) #use star_date as argument within state_log method
-  puts "Captain's Log, star date #{star_date}."
+def state_log(star_date) #define method state_log with argument of date
+  puts "Captain's Log, star date #{star_date}." #puts Captain's Log with star date
 end
 
 crew = ["Jake", "Brynn", "Chase", "Brittany", "Eric"] #set crew equal to array of names
@@ -22,9 +19,9 @@ end
 
 def engage
   crew = ["Jake", "Brynn", "Chase", "Brittany", "Eric"] #define crew variable equal to array of names
-  date = generate_star_date
-  state_log(date)
-  greet_crew(crew)
+  date = generate_star_date #set generate_star_date method equal to variable date
+  state_log(date) #pass date to state_log method as argument
+  greet_crew(crew) #call greet_crew method with crew variable passed as argument
 end
 
 engage
