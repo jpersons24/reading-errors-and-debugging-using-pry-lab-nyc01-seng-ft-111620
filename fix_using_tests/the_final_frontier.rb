@@ -12,6 +12,14 @@ def state_log(star_date)
   "Captain's Log, star date #{star_date}."
 end
 
+crew = ["Jake", "Brynn", "Chase", "Brittany", "Eric"]
+
+def greet_crew(crew)
+  crew.each do |crew_member|
+    "Hello #{crew_member}."
+  end
+end
+
 state_log(star_date)
 
 def engage
