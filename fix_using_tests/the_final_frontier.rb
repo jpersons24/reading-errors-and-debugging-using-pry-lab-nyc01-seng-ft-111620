@@ -8,7 +8,7 @@ def generate_star_date
   puts "remove this line when done"
 end
 
-generate_star_date
+star_date = generate_star_date
 
 
 def state_log(star_date)
