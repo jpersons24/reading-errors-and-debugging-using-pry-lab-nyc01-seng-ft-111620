@@ -5,6 +5,7 @@ def generate_star_date
   star_date = (rand(100000) + 400000) / 10.0
   return star_date
   binding.pry
+  puts "remove this line when done"
 end
 
 generate_star_date
