@@ -5,8 +5,8 @@ def generate_star_date
   (rand(100000) + 400000) / 10.0
 end
 
-generate_star_date #call generate_star_date method
-star_date = generate_star_date #set generate_star_date method equal to star_date variable
+# generate_star_date #call generate_star_date method
+# star_date = generate_star_date #set generate_star_date method equal to star_date variable
 
 def state_log(star_date) #use star_date as argument within state_log method
   puts "Captain's Log, star date #{star_date}."
